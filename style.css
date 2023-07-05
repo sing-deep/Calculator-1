@@ -1,0 +1,21 @@
+html{
+    font-family: sans-serif; 
+    font-size: 35px;
+       
+   }
+   
+body{
+       margin: 0 auto;
+       width: 50%;
+       max-width: 800px;
+       min-width: 480px;
+       
+       
+}
+   
+.form input [type ="text"]{
+       width: 200px;
+   }
+.love{
+       font-family: cursive;
+}   
