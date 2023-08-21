@@ -1,21 +1,162 @@
-html{
-    font-family: sans-serif; 
-    font-size: 35px;
-       
-   }
-   
-body{
-       margin: 0 auto;
-       width: 50%;
-       max-width: 800px;
-       min-width: 480px;
-       
-       
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jura:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jost:wght@300&family=Jura:wght@600&family=Mali:ital,wght@0,500;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans&family=Inter&family=Jura:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jura:wght@600&family=Mali:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Jura:wght@600&family=Mali:ital,wght@0,500;1,300;1,400&display=swap');
+*{
+    padding: 0px 25px 0px 25px;
 }
+header {
+    
+    
+    display: flex;
+    align-items: center;
+    height: 72px;
+}
+header hr{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    font-family: jura;
+    font-size: 20px;
+}
+.logo img{
+    height: 54px;
+    width: 60px;
    
-.form input [type ="text"]{
-       width: 200px;
-   }
-.love{
-       font-family: cursive;
-}   
+}
+.menu {
+    margin-left: 281px; /* Adjust as needed */
+  }
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+
+.menu ul li{
+    list-style: none;
+    padding: 0 4px;
+}
+.menu ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+}
+.login{
+    display: flex;
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    align-items: center;
+    padding-left: 125px;
+
+}
+.login img {
+    height: 43px;
+    width: 44px;}
+hr{
+    width: 87%;
+}    
+
+.tag{
+    padding: 0px 55px;
+}
+span{
+    padding: 0px;
+}
+.heroimagecontent{
+    width: 93%;
+    height: 674px;
+    background-image: url(image/best-friends-pointing-copy-space\ \(1\).jpg);
+    background-size: cover;
+    padding: 0px;
+    margin-top: -58px;
+    margin-left: 55px;
+}
+.heroimagecontent h1{
+    font-size: 85px;
+    font-family: cursive;
+    color: purple;
+    padding-top: 110px;
+    padding-left: 70px;
+}
+.heroimagecontent h2{
+    width: 505px;
+    font-size: 32px;
+    font-family: inria sans-serif;
+    font-weight: 600;
+    padding-left: 70px;
+    letter-spacing: 2px;
+}
+.heroimagecontent p{
+    padding-top: 210px;
+    padding-left: 1218px;
+}
+h3{
+    font-size: 33px;
+    padding-left: 29px;
+}
+.disclaimer p{
+    font-size: 20px;
+    letter-spacing: 0.5px;
+}
+.form{
+    width: 90%;
+    height: 602px;
+    background-color: lightsalmon;
+    margin: 71px 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center
+}
+label{
+    font-size: 32px;
+    margin-top: 33px;
+}
+ .name{
+    width: 275px;
+    height: 50px;
+    font-size: 23px;
+    border: dotted;
+}
+.submit{
+    width: 122px;
+    height: 44px;
+    font-size: 19px;
+    border-radius: 10px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-style: bold;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+.friendship{
+    font-size: 63px;
+    /* font-stretch: extra-expanded; */
+    font-family: jura;
+    font-weight: 700;
+    margin: 16px 0px;
+    color: green;
+}
+.percentage{
+    font-size: 33px;
+    margin: 12px;
+}
+footer p {
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    font-family: auto;
+}  

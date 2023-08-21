@@ -1,12 +1,12 @@
 const secTion = document.querySelector(".percentage");
-const fname = document.querySelector(".fname");
-const lname = document.querySelector(".lname");
-const love = document.querySelector(".love");
+const fname = document.querySelector("#fname");
+const lname = document.querySelector("#lname");
+const friendShip = document.querySelector(".friendship");
 
 const submitButton = document.querySelector(".submit");
 
-love.textContent ="Friendship";
-const love2 = love.textContent;
+friendShip.textContent ="Friendship";
+const friendShip1 = friendShip.textContent;
 
 submitButton.addEventListener("click", update);
 
@@ -15,7 +15,7 @@ let newWords;
 function update() {
   let firstName = fname.value.trim();
   let lastName = lname.value.trim();
-  newWords =`${firstName}${love2}${lastName}`;
+  newWords =`${firstName}${friendShip1}${lastName}`;
   //console.log(newWords);
   
 
@@ -92,9 +92,9 @@ console.log(value1);
 let stringArray = value1.join('');
 console.log(stringArray);
 
-secTion.textContent = `percentage: ${stringArray}`;
+secTion.textContent = `Percentage: ${stringArray}%` ;
 
-firstName = " ";
+firstName = " ";console.log(firstName);
 lastName = " ";
 
 }
